@@ -1,0 +1,13 @@
+# selecionar a Função correta para verificar se a pessoa pode votar
+
+
+# Função principal que coleta a idade do usuário
+def main():
+    print("Bem-vindo ao verificador de idade para voto!")
+    idade = int(input("Por favor, informe sua idade: "))
+    resultado = verificar_idade(idade)
+    print(resultado)
+
+# Executando o programa
+if __name__ == "__main__":
+    main()
