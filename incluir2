@@ -1,0 +1,7 @@
+def verificar_carro(carro):
+    if carro >= 18:
+        return "Você pode correr!"
+    elif carros == 17:
+        return "Você tem 17 carros, logo poderá corre no próximo ano!"
+    else:
+        return "Você não pode correr ainda."
