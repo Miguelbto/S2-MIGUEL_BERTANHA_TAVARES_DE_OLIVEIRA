@@ -1,0 +1,7 @@
+def verificar_idade(idade):
+    if idade >= 18:
+        return "Você pode votar!"
+    elif idade == 17:
+        return "Você tem 17 anos, logo poderá votar no próximo ano!"
+    else:
+        return "Você não pode votar ainda."
